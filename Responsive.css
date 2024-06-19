@@ -1,0 +1,158 @@
+/* Header page start  */
+@media (max-width: 995px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+/* Header page end  */
+
+/* About us page start */
+@media (max-width: 768px) {
+    .AboutUs {
+        flex-direction: column;
+    }
+
+    .contentPart, .ImgPart {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 50px;
+    }
+
+    .contentPart h1 {
+        font-size: 2em;
+    }
+
+    .contentPart h3 {
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+}
+/* About us page end */
+
+/* project page start */
+@media screen and (max-width: 520px) {
+        .screen-body {
+        flex-direction: column;
+    }
+
+    .screen-body-item.left {
+        margin-bottom: 30px;
+    }
+
+    .app-title {
+        flex-direction: row;
+    }
+
+    .app-title span {
+        margin-right: 12px;
+    }
+
+    .app-title:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .screen-body {
+        padding: 40px;
+    }
+
+    .screen-body-item {
+    padding: 0;
+    }
+}
+/* project page end */
+
+/* provides services page start */
+@media(max-width: 939px){
+    .servicesCard{
+        margin-top: 50px;
+    }
+}
+/* provides services page end */
+
+/* footer page start */
+@media(max-width: 1000px){
+    .end-footer .h-2{
+        margin-top: 20px;
+    }
+
+    .social-icons img{
+        margin-top: 10px 0px;
+    }
+}
+
+@media(max-width: 547px){
+    .end-footer .footer-btn{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .footer-logo-section{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 530px){
+    .start-footer h1{
+        font-size: 20px;
+    }
+
+    .end-footer .h-1{
+        font-size: 32px;
+    }
+
+    .end-footer .h-2{
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 470px){
+
+    .end-footer .h-1{
+        font-size: 26px;
+    }
+
+    .end-footer .h-2{
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 380px){
+    .start-footer h1{
+        font-size: 20px;
+    }
+
+    .end-footer .h-1{
+        font-size: 20px;
+    }
+
+    .end-footer .h-2{
+        font-size: 20px;
+    }
+}
+
+/* footer page end */
+
+/* copyright page start */
+@media(max-width: 400px){
+    .copyrightsection p{
+        font-size: 15px;
+    }
+}
+/* copyright page end */
